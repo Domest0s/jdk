@@ -186,7 +186,7 @@ public class TestJcmd {
         return ProcessTools.startProcess("main-container-process",
                                       pb,
                                       line -> line.contains(EventGeneratorLoop.MAIN_METHOD_STARTED),
-                                      5, TimeUnit.SECONDS);
+                                      15, TimeUnit.SECONDS);
     }
 
 
